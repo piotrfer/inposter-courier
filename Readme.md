@@ -1,0 +1,1 @@
+przygotowanie i uruchomienie programu poprzez node-js (npm install . && node .)

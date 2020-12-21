@@ -1,0 +1,13 @@
+extends base.pug
+
+block body
+    <h2>Dashboard</h2>
+    <h2>Labels</h2>
+    ul
+        each val in `${labels}`
+            li= val
+
+    <h2>Parcels</h2>
+    ul
+        each val in `${parcels}`
+            li= val

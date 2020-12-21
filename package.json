@@ -1,0 +1,29 @@
+{
+  "name": "inposter-courier",
+  "version": "1.0.0",
+  "description": "Simple CLI app for courier. Part of InPoster.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrfer/inposter-courier.git"
+  },
+  "author": "Piotr Ferdynus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrfer/inposter-courier/issues"
+  },
+  "homepage": "https://github.com/piotrfer/inposter-courier#readme",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.0"
+  }
+}
